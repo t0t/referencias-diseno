@@ -68,7 +68,7 @@ async function capture(browser, url, filename) {
   const page = await browser.newPage();
   try {
     await page.setViewport(VIEWPORT);
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 45000 });
     await new Promise((r) => setTimeout(r, WAIT_MS));
 
     const outPath = path.join(SCREENSHOTS_DIR, filename);
