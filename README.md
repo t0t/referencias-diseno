@@ -1,5 +1,7 @@
 # REFS — Showcase de referencias de diseño
 
+**Live:** https://t0t.github.io/referencias-diseno/
+
 Galería curada de sitios web excepcionales. 43 referencias seleccionadas por calidad estética y excelencia técnica.
 
 ## Arquitectura
