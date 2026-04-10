@@ -1,0 +1,16 @@
+{
+  "name": "referencias-diseno",
+  "version": "4.0.0",
+  "description": "Galería curada de sitios web excepcionales — 43 referencias de diseño",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "screenshots": "node scripts/screenshot-pipeline.js",
+    "screenshots:all": "node scripts/screenshot-pipeline.js --all",
+    "optimize": "node scripts/screenshot-pipeline.js --optimize-only"
+  },
+  "author": "Sergio Forés",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.12.1"
+  }
+}
